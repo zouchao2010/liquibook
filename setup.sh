@@ -10,7 +10,7 @@ cd /root \
     && cd /root/boost_1_58_0 && ./bootstrap.sh --prefix=/root/boost_1_58_0 && ./b2 --layout=versioned
 
 cd /root/boost_1_58_0 \
-     ./b2 install && rm -rf `ls |egrep -v -w '(lib|include)'`
+    && ./b2 install && rm -rf `ls |egrep -v -w '(lib|include)'`
 
 #QUICKFAST
 export QUICKFAST_ROOT=/root/quickfast-1_5
