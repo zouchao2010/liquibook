@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+#QUICKFAST
 export QUICKFAST_ROOT=/root/quickfast-1_5
 export MPC_ROOT=/root/MPC-ACE-TAO-CIAO-6_3_3
 export BOOST_ROOT=/root/boost_1_58_0
@@ -11,6 +12,7 @@ export XERCES_LIBPATH=$XERCES_ROOT/lib
 export XERCES_INCLUDE=$XERCES_ROOT/include
 export PATH=$QUICKFAST_ROOT/bin:$MPC_ROOT:$PATH
 export LD_LIBRARY_PATH=$XERCES_LIBPATH:$QUICKFAST_ROOT/lib:$BOOST_ROOT_LIB:$LD_LIBRARY_PATH
+#LIQUIBOOK
 export LIQUIBOOK_ROOT=/root/liquibook
 export CIAO_ROOT=/dev/null
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$LIQUIBOOK_ROOT/lib
