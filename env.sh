@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #QUICKFAST
 export QUICKFAST_ROOT=/root/quickfast-1_5
 export MPC_ROOT=/root/MPC-ACE-TAO-CIAO-6_3_3
